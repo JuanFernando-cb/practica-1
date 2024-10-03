@@ -1,0 +1,57 @@
+th{
+    background-color: bisque;
+}
+
+table{
+    width: 50%;
+    height: 60%;
+    border-collapse: collapse; /* Hace que los bordes no se dupliquen */
+}
+th, td{
+    border: 1px solid black; /* Define el borde */
+    text-align: center;
+    vertical-align: middle;
+}
+body{
+    display: flex;  /*Convierte el  contendio del body en un contenedor flexible permitiendo alineear y disstribuir los elementos hijos*/
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la ventana */
+    margin: 0; /* Elimina los márgenes del body */
+    background-color: rgb(185, 188, 190);
+}
+/*añado color a las celdas de dias de la semana*/
+.diaSemana{
+    background-color: rgb(247, 203, 94);
+}
+/*añado color a las celdas de hora*/
+.hora{
+    background-color: aquamarine;
+}
+
+/*añado color a las celdas de recreo*/
+.recreo{
+    background-color: rgb(122, 122, 122);
+}
+/* asignatura   de despliegue en  azul */
+.despliegue {
+    background-color: #4e94f0; /* Color de fondo para la celda */
+}
+
+.prog{
+    background-color: rgb(176, 127, 221);
+}
+
+#empresa{
+    background-color: rgb(219, 231, 105);
+}
+
+.libreConf{
+    background-color: pink;
+}
+.diseño{
+    background-color: rgb(118, 241, 118);
+}
+.desCli{
+    background-color: rgb(241, 128, 137);
+}
